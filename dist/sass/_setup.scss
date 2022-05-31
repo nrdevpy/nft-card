@@ -1,0 +1,27 @@
+//* Variables
+    // Primary
+    $soft-blue: hsl(215, 51%, 70%);
+    $cyan: hsl(178, 100%, 50%);
+    
+    // Neutral
+    $main-bg: hsl(215, 32%, 27%);   
+    $soft-blue: hsl(215, 51%, 70%);
+    $card-bg: hsl(216, 50%, 16%);
+    $line: hsl(215, 32%, 27%);
+    $white: hsl(0, 0%, 100%);
+
+//* Globals
+* {
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: $card-bg;
+}
