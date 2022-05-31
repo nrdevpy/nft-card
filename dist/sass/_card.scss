@@ -1,10 +1,11 @@
-@import 'setup';
+@import 'setup', 'mixins';
 
 .card {
     background-color: $main-bg;
     margin-top: 5rem;
     
     &__container {
+        @include flex-start (column);
         padding: 1rem;
     }
     &__image img, & {
