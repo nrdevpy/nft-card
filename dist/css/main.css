@@ -14,6 +14,11 @@ body {
   background-color: #14253d;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 * {
   font-family: 'Outfit', sans-serif;
   -webkit-box-sizing: border-box;
@@ -30,8 +35,22 @@ body {
   background-color: #14253d;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .card {
   background-color: #2f415b;
+  margin-top: 5rem;
+}
+
+.card__container {
+  padding: 1rem;
+}
+
+.card__image img, .card {
+  border-radius: 15px;
 }
 
 .attribution {

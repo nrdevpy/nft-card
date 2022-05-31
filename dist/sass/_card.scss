@@ -2,4 +2,12 @@
 
 .card {
     background-color: $main-bg;
+    margin-top: 5rem;
+    
+    &__container {
+        padding: 1rem;
+    }
+    &__image img, & {
+        border-radius: 15px;
+    }
 }
