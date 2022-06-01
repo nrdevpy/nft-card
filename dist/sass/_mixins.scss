@@ -1,8 +1,11 @@
 // Flex center
-@mixin flex-start ($flex-direction, $gap: 1rem) {
+@mixin flex (
+    $flex-direction,
+    $justify: space-between,
+    $gap: 1rem
+) {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    justify-content: $justify;
     flex-direction: $flex-direction;
     gap: $gap;
 }

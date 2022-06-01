@@ -5,8 +5,9 @@
     
     // Neutral
     $main-bg: hsl(215, 32%, 27%);   
-    $soft-blue: hsl(215, 51%, 70%);
     $card-bg: hsl(216, 50%, 16%);
+    $bg: hsl(216, 50%, 12%);
+    $card-shadow: hsl(216, 50%, 10%);
     $line: hsl(215, 32%, 27%);
     $white: hsl(0, 0%, 100%);
 
@@ -20,10 +21,6 @@
 
 img {
     max-width: 100%;
-}
-
-body {
-    background-color: $card-bg;
 }
 
 //* Utilities

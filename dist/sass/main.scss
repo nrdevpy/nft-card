@@ -1,5 +1,11 @@
 @import 'setup', 'card';
 
+body {
+    @include flex(column, space-evenly);
+    height: 100vh;
+    color: $soft-blue;
+    background-color: $bg;   
+}
 .attribution {
     font-size: 11px; text-align: center;
 }
