@@ -100,6 +100,11 @@ p {
   color: white;
 }
 
+.card__container h2:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
 .card__image {
   position: relative;
 }
@@ -196,6 +201,11 @@ p {
 
 .card__creator .creator {
   color: white;
+}
+
+.card__creator .creator:hover {
+  color: #00fff7;
+  cursor: pointer;
 }
 
 body {
