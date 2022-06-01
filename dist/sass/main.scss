@@ -1,7 +1,7 @@
 @import 'setup', 'card';
 
 body {
-    @include flex(column, space-evenly);
+    @include flex(column, center, space-evenly);
     height: 100vh;
     color: $soft-blue;
     background-color: $bg;   
