@@ -15,6 +15,14 @@ img {
   margin: 0 auto;
 }
 
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 20px;
+  padding: .1rem;
+}
+
 * {
   font-family: 'Outfit', sans-serif;
   -webkit-box-sizing: border-box;
@@ -30,6 +38,14 @@ img {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 20px;
+  padding: .1rem;
 }
 
 .card {
