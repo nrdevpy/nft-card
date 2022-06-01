@@ -11,6 +11,17 @@
     $line: hsl(215, 32%, 27%);
     $white: hsl(0, 0%, 100%);
 
+    // Maps
+    $font-weights: (
+        regular: 300,
+        medium: 400,
+        bold: 600,
+    );
+    $resolution: (
+        mobile: 375px,
+        desktop: 1440px,
+    );
+
 //* Globals
 * {
     font-family: 'Outfit', sans-serif;
@@ -21,6 +32,15 @@
 
 img {
     max-width: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: map-get($font-weights, bold);
+}
+
+p {
+    font-size: 18px;
+    font-weight: map-get($font-weights, regular);
 }
 
 //* Utilities

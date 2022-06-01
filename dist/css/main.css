@@ -10,6 +10,15 @@ img {
   max-width: 100%;
 }
 
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -33,6 +42,15 @@ img {
 
 img {
   max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .container {
@@ -76,6 +94,10 @@ img {
   padding: 1.8rem;
 }
 
+.card__container h2 {
+  color: white;
+}
+
 .card__image img, .card {
   border-radius: 15px;
 }
@@ -113,6 +135,10 @@ img {
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 1rem;
+}
+
+.card__creator .creator {
+  color: white;
 }
 
 body {
