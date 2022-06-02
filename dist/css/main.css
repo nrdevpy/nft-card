@@ -70,8 +70,8 @@ p {
 
 .card {
   background-color: #14253d;
-  -webkit-box-shadow: 0px 0px 0px 1.5rem #0d1726;
-          box-shadow: 0px 0px 0px 1.5rem #0d1726;
+  -webkit-box-shadow: 0px 0px 20px 1.5rem #0d1726;
+          box-shadow: 0px 0px 20px 1.5rem #0d1726;
   max-width: 20rem;
 }
 
