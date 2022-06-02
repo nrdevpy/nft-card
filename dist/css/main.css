@@ -122,6 +122,10 @@ p {
   margin: auto;
 }
 
+.card__image img {
+  display: block;
+}
+
 .card__image img, .card {
   border-radius: 15px;
 }

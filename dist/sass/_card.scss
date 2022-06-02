@@ -34,6 +34,9 @@
             margin: auto;
         }
     }
+    &__image img {
+        display: block;
+    }
     &__image img, & {
         border-radius: 15px;
     }
