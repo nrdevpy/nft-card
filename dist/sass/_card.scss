@@ -70,11 +70,22 @@
         }
     }
     &__creator {
-        @include flex (row, center, space-between);
-        .creator {
+        @include flex (row, center);
+        .avatar {
+            max-width: 2.5rem;
+            img {
+                filter: drop-shadow(1px 0px 0 $white)
+                        drop-shadow(0px 1px 0 $white)
+                        drop-shadow(-1px 0px 0 $white)
+                        drop-shadow(0px -1px 0 $white)
+            }
+        }
+        
+        &--nick {
+            font-weight: map-get($font-weights, medium);
             color: $white;
         }
-        .creator:hover {
+        &--nick:hover {
             color: $cyan;
             cursor: pointer;
         }
